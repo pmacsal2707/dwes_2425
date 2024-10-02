@@ -32,21 +32,13 @@
             <!-- Velocidad Inicial -->
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Velocidad Inicial (m/s)</span>
-                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" value="300">
+                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" placeholder="0,00" name="valor1">
             </div>
 
             <!-- Ángulo de Lanzamiento -->
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Ángulo de Lanzamiento (°)</span>
-                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" value="40">
-            </div>
-
-            <br>
-
-            <!-- Resultado -->
-            <div class="input-group input-group-lg mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-lg">Resultado</span>
-                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="" readonly>
+                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" placeholder="0,00" name="valor2">
             </div>
 
             <br>
@@ -54,7 +46,7 @@
             <!-- botones de acción -->
             <div class="btn-group" role="group">
                 <button type="reset" class="btn btn-outline-secondary">Borrar</button>
-                <button type="submit" class="btn btn-outline-primary">Calcular</button>
+                <button type="submit" class="btn btn-outline-primary" formaction="calcular.php">Calcular</button>
             </div>
 
         </form>

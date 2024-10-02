@@ -9,4 +9,4 @@
 
      // Modelo: no hace falta
      // Vista: formulario inicial de la calculadora
-     include "views/viewIndex.php";
+     include "views/index.php";
