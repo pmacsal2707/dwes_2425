@@ -17,11 +17,11 @@ $anguloGrados = $_GET['valor2'];
 define('G', 9.81); // Aceleración de la gravedad en m/s²
 
 // Convertir el ángulo de grados a radianes
-$anguloRadianes = $anguloGrados * (pi() / 180);
+$anguloRadianes = round(($anguloGrados * (pi() / 180)), 5);
 
 // Realizo los cálculos
-$velocidadHorizontal = $velocidadInicial * cos($anguloRadianes); // (Vox = V0 * cos(A0))
-$velocidadVertical = $velocidadInicial * sin($anguloRadianes); // (Voy = V0 * sin(A0))
-$alcanceMaximo = ($velocidadInicial ** 2) * sin(2 * $anguloRadianes) / G; // Xmax = (g * V0^2 * sin(2 * A0)) / g
-$alturaMaxima = ($velocidadInicial ** 2) * (sin($anguloRadianes) ** 2) / (2 * G); // Ymax = (V0^2 * sin^2(A0)) / (2 * g)
-$tiempoTotal = (2 * $velocidadInicial * sin($anguloRadianes)) / G; // t = (2 * V0 * sin(A0)) / g
+$velocidadHorizontal = round(($velocidadInicial * cos($anguloRadianes)), 2); // (Vox = V0 * cos(A0))
+$velocidadVertical = round(($velocidadInicial * sin($anguloRadianes)), 2); // (Voy = V0 * sin(A0))
+$alcanceMaximo = round((($velocidadInicial ** 2) * sin(2 * $anguloRadianes) / G), 2); // Xmax = (g * V0^2 * sin(2 * A0)) / g
+$alturaMaxima = round((($velocidadInicial ** 2) * (sin($anguloRadianes) ** 2) / (2 * G)), 2); // Ymax = (V0^2 * sin^2(A0)) / (2 * g)
+$tiempoTotal = round(((2 * $velocidadInicial * sin($anguloRadianes)) / G), 2); // t = (2 * V0 * sin(A0)) / g

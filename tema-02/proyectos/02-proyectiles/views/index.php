@@ -30,17 +30,18 @@
         <form>
 
             <!-- Velocidad Inicial -->
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Velocidad Inicial (m/s)</span>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Velocidad Inicial:</label>
                 <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" placeholder="0,00" name="valor1">
+                <div id="emailHelp" class="form-text">Velocidad en m/s</div>
             </div>
 
             <!-- Ángulo de Lanzamiento -->
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">Ángulo de Lanzamiento (°)</span>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Ángulo de Lanzamiento:</label>
                 <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" placeholder="0,00" name="valor2">
+                <div id="emailHelp" class="form-text">Introduzca el ángulo en grados</div>
             </div>
-
             <br>
 
             <!-- botones de acción -->
