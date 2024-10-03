@@ -27,7 +27,7 @@
         <legend>Lanzamiento de Proyectiles</legend>
 
         <!-- inicio del formulario -->
-        <form>
+        <form method="POST" action="calcular.php">
 
             <!-- Velocidad Inicial -->
             <div class="mb-3">
@@ -47,7 +47,7 @@
             <!-- botones de acción -->
             <div class="btn-group" role="group">
                 <button type="reset" class="btn btn-outline-secondary">Borrar</button>
-                <button type="submit" class="btn btn-outline-primary" formaction="calcular.php">Calcular</button>
+                <button type="submit" class="btn btn-outline-primary">Calcular</button>
             </div>
 
         </form>

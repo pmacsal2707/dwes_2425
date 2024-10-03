@@ -30,73 +30,48 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Valores Iniciales:</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
+                    <th scope="col" colspan="2">Valores Iniciales:</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td scope="row">Velocidad Inicial:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $velocidadInicial . " m/s" ?></td>
                 </tr>
                 <tr>
                     <td scope="row">Ángulo Inclinación:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $anguloGrados . "°" ?></td>
                 </tr>
-
-                <!-- **************** -->
                 <tr>
-                    <th scope="row">Resultados:</th>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <th scope="row" colspan="4">Resultados:</th>
                 </tr>
                 <tr>
                     <td scope="row">Ángulo Radianes:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $anguloRadianes . " Radianes" ?></td>
                 </tr>
                 <tr>
                     <td scope="row">Velocidad Inicial X:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $velocidadHorizontal . " m/s" ?></td>
                 </tr>
                 <tr>
                     <td scope="row">Velocidad Inicial Y:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $velocidadVertical . " m/s" ?></td>
                 </tr>
                 <tr>
                     <td scope="row">Alcance Máximo del Proyectil:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $alcanceMaximo . " m" ?></td>
                 </tr>
                 <tr>
                     <td scope="row">Tiempo de Vuelo del Proyectil:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $tiempoTotal . " s" ?></td>
                 </tr>
                 <tr>
                     <td scope="row">Altura Máxima del Proyectil:</td>
-                    <td></td>
-                    <td></td>
                     <td><?= $alturaMaxima . " m" ?></td>
                 </tr>
-
-
             </tbody>
         </table>
+
 
         <!-- botones de acción -->
         <div class="btn-group" role="group">
