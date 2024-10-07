@@ -1,9 +1,9 @@
 <?php
     /**
-     * ****************************
-     * Controlador multiplicar.php      *
-     * Proyecto 2.1 - Calculadora *
-     * ****************************
+     * *****************************
+     * Controlador multiplicar.php *
+     * Proyecto 2.1 - Calculadora  *
+     * *****************************
      * 
      */
 

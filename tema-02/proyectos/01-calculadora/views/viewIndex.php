@@ -47,6 +47,7 @@
         <button type="submit" class="btn btn-outline-success" formaction="restar.php">Resta</button>
         <button type="submit" class="btn btn-outline-success" formaction="sumar.php">Producto</button>
         <button type="submit" class="btn btn-outline-success" formaction="dividir.php">División</button>
+        <button type="submit" class="btn btn-outline-success" formaction="elevar.php">Potencia</button>
       </div>
 
     </form>

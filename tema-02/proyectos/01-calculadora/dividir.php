@@ -1,7 +1,7 @@
 <?php
     /**
      * ****************************
-     * Controlador dividir.php      *
+     * Controlador dividir.php    *
      * Proyecto 2.1 - Calculadora *
      * ****************************
      * 
