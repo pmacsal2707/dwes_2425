@@ -44,11 +44,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link <?php ($perfil != "Admin") ? 'dissable' : null ?>" href="#">Admin</a>
-                    <!-- <a class="nav-link <?php echo ($perfil != "Admin") ? 'disabled' : ''; ?>" href="<?php echo ($perfil != "Admin") ? '#' : 'admin.php'; ?>">Admin</a> -->
-                    <!-- <a class="nav-link" aria-disabled="true">Admin</a> -->
-                </li>
+
+                <!-- Generación dinámica del enlace Admin -->
+                <?php if ($perfil == "Admin"): ?>
+                    <li>
+                        <a class="nav-link" href="#">Admin</a>
+                    </li>
+                <?php endif; ?>
             </ul>
         </nav>
 
