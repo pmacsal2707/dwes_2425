@@ -2,9 +2,9 @@
 
     $var = 15;
 
-    var_dump(value: $var);
+    var_dump($var);
 
     echo("<BR>");
 
     $nombre = "Juan";
-    var_dump(value: $nombre);
+    var_dump($nombre);

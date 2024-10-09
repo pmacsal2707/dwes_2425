@@ -32,12 +32,12 @@
             <!-- Valor 1 -->
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Valor 1</span>
-                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" value="<?= $valor1?>" readonly>
+                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" value="<?=$valor1?>" readonly>
             </div>
             <!-- Valor 1 -->
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Valor 2</span>
-                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" value="<?= $valor2?>" readonly>
+                <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" step="0.01" value="<?=$valor2?>" readonly>
             </div>
             
             <BR>
