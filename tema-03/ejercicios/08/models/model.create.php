@@ -34,7 +34,7 @@
         'precio' => $precio
     ];
 
-    # Añadir nuevo libro a la tabla
+    # Añadir nuevo libro a la tabla - lo añade al final del array
     $libros[] = $registro;
 
-    //array_push($libros,$registro); Tambíen podemos añadir el nuevo libro al array así
+    # array_push($libros,$registro); Tambíen podemos añadir el nuevo libro al array así

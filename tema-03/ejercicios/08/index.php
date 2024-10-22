@@ -2,9 +2,10 @@
 
     /**
      * Controlador principal: index.php
+     * Descripción: controlador principal del proyecto libros
      */
 
-    //Cargar liberia
+     # Cargar liberia
     include "libs/funciones.php";   
 
      # Model

@@ -19,7 +19,7 @@
         <legend>Formulario Editar Libro</legend>
 
         <!-- Formulario Nuevo alumno -->
-        <form action="update.php?id=<?= $id ?>" method="POST">
+        <form>
 
             <!-- id -->
             <div class="mb-3 row">

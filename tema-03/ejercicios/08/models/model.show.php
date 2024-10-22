@@ -10,10 +10,10 @@
     # Cargo id del libro que voy a editar
     $id = $_GET['id'];
 
-    # Cargar la tabla de alumnos
+    # Cargar la tabla de libro
     $libros = get_tabla_libros();
 
-    # Buscar id en la tabla alumnos y devuelvo índice.
+    # Buscar id en la tabla libro y devuelvo índice.
     $indice_mostrar = buscar_tabla_2($libros, 'id', $id);
 
     # Validar la búsqueda

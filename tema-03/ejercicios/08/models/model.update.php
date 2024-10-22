@@ -43,6 +43,6 @@
     ];
 
     # Actualizo la tabla libros
-    $libros[$indice_editar] = $registro;
+    $libros[$indice_editar] = $registro; // Si hiciera esto -> $libros[] = $registro; estaría añadiendo
 
 

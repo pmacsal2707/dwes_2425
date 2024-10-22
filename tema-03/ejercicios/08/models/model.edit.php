@@ -1,5 +1,4 @@
 <?php
-
     /*
         Modelo: model.edit.php
         Descripción: Muestra formulario con los detalles editables de un libro
@@ -14,7 +13,7 @@
     # Cargar la tabla de libros
     $libros = get_tabla_libros();
 
-    # Buscar id en la tabla alumnos y devuelvo índice.
+    # Buscar id en la tabla libros y devuelvo índice.
     $indice_editar = buscar_tabla_2($libros, 'id', $id);
 
     # Validar la búsqueda
@@ -22,11 +21,7 @@
         
         echo "ERROR: libro no encontrado";
         exit();
-
     } 
 
     # Creo el array registro sólo con los detalles del libro
     $registro = $libros[$indice_editar];
-
-
-    

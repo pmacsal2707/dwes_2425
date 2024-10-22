@@ -24,8 +24,7 @@
                         <li><a class="dropdown-item" href="order.php?criterio=precio">Precio</a></li>
                     </ul>
                 </li>
-
-
+                
             </ul>
             <form class="d-flex" role="search" action="filter.php" method="GET">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="expresion" required>
