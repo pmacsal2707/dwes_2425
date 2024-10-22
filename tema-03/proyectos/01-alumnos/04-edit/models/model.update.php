@@ -42,5 +42,3 @@
 
     # Actualizo la tabla alumnos
     $alumnos[$indice_editar] = $registro;
-
-

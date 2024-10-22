@@ -44,16 +44,16 @@
                             <td>
                                 <!-- botón eliminar -->
                                 <a href="delete.php?id=<?= $registro['id'] ?>" title="Eliminar"
-                                onclick="return confirm('Confimar elimación del alumno')">
-                                <i class="bi bi-trash-fill"></i></a>
+                                    onclick="return confirm('Confimar elimación del alumno')">
+                                    <i class="bi bi-trash-fill"></i></a>
 
                                 <!-- botón editar -->
                                 <a href="edit.php?id=<?= $registro['id'] ?>" title="Editar">
-                                <i class="bi bi-pencil-square"></i></a>
-                                
+                                    <i class="bi bi-pencil-square"></i></a>
+
                                 <!-- botón mostrar -->
                                 <a href="show.php?id=<?= $registro['id'] ?>" title="Editar">
-                                <i class="bi bi-card-text"></i></a>
+                                    <i class="bi bi-card-text"></i></a>
 
                             </td>
                         </tr>

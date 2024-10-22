@@ -1,14 +1,14 @@
 <?php
 
-/**
- * controlador principal
- * 
- * ca
- */
-include "libs/funciones.php";
+    /**
+     * Controlador principal: index.php
+     */
 
- # Model
- include "models/model.index.php";
+    //Cargar liberia
+    include "libs/funciones.php";   
 
- # Vista
- include "views/view.index.php";
+     # Model
+     include "models/model.index.php";  
+
+     # Vista
+     include "views/view.index.php";

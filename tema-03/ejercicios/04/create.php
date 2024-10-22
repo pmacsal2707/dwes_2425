@@ -1,14 +1,15 @@
 <?php
 
-/**
- * controlador:create.php
- * descripcion: permitir añadir nuevo alumno a la tabla
- */
-//Cargar liberia
-include "libs/funciones.php";
+    /**
+     * Controlador: create.php
+     * Descripcion: permitir añadir nuevo libro a la tabla
+     */
 
- # Model
- include "models/model.create.php";
+    //Cargar liberia
+    include "libs/funciones.php";
 
- # Vista
- include "views/view.index.php";
+     # Model
+     include "models/model.create.php";
+
+     # Vista
+     include "views/view.index.php";

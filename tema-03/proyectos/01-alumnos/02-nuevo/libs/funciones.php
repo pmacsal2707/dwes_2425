@@ -1,7 +1,7 @@
 <?php
 
     /*
-        Librería proyecto 31 CRUD alumnos
+        Librería proyecto 3.1 CRUD alumnos
     */
 
     # Obtiene la tabla de alumnos

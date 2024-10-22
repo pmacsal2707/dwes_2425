@@ -1,7 +1,6 @@
 <?php
 
     /*
-
         Modelo:  model.create.php
         Descripción: añade un nuevo alumno a la taba
 
@@ -32,5 +31,5 @@
     # Añadir nuevo alumno a la tabla
     $alumnos[] = $registro;
 
-    // array_push($alumnos, $registro);
+    // array_push($alumnos, $registro); De esta forma podemos añadir el array al array multidimensional
 

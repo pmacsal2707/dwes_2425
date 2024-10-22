@@ -1,7 +1,7 @@
 <?php
 
 /*
-    controlador principal
+    Controlador principal
 
     carga model.index.php 
     carga view.index.php

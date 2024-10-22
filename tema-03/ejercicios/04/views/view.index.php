@@ -14,10 +14,10 @@
 </head>
 
 <body>
-  <!-- capa principal -->
+  <!-- Capa principal -->
   <div class="container">
 
-    <!-- cabecera documento -->
+    <!-- Cabecera documento -->
     <header class="pb-3 mb-4 border-bottom">
       <i class="bi bi-book"></i>
       <span class="fs-6">Proyecto 3.1 - Librería</span>
@@ -27,7 +27,7 @@
     <legend>
       <h1>Tabla libros</h1>
     </legend>
-    <!-- mostrar menu de alumnos -->
+    <!-- Mostrar menu de alumnos -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.php">Libros</a>
@@ -84,10 +84,12 @@
               <td><?= $registro['genero'] ?></td>
               <td><?= $registro['editorial'] ?></td>
               <td><?= $registro['precio'] ?></td>
+
+              <!-- Botones de Acción -->
               <td>
-                <a href="delete.php?id=<?=$registro['id']?>" title="Eliminar"
-                onclick="return confirm('Confirmar eliminacion del alumno')">
-                <i class="bi bi-trash-fill"></i></a> <!-- Icono de Bootstrap -->
+                <a href="delete.php?id=<?= $registro['id'] ?>" title="Eliminar"
+                  onclick="return confirm('Confimar elimación del alumno')">
+                  <i class="bi bi-trash-fill"></i></a>
               </td>
             </tr>
           <?php endforeach; ?>
@@ -99,7 +101,7 @@
     <footer class="footer mt-auto py-3 fixed-bottom bg-light">
       <div class="container">
         <span class="text-muted">© 2024
-          Pablo García Mangana - DWES - 2º DAW - Curso 24/25
+          Pablo Macías Salguero - DWES - 2º DAW - Curso 24/25
         </span>
       </div>
     </footer>
@@ -108,6 +110,6 @@
 
   <!-- javascript bootstrap 533 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </>
+</body>
 
 </html>

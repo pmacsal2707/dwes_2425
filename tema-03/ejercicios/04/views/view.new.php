@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <!-- capa principal -->
+    <!-- Capa principal -->
     <div class="container">
 
-        <!-- cabecera documento -->
+        <!-- Cabecera documento -->
         <header class="pb-3 mb-4 border-bottom">
             <i class="bi bi-book"></i>
             <span class="fs-6">Proyecto 3.1 - Librería</span>
@@ -27,42 +27,42 @@
 
         <form action="create.php" method="POST">
 
-            <!--Id-->
+            <!-- Id -->
             <div class="mb-3 row">
                 <label for="inputId" class="col-sm-2 col-form-label">Id</label>
                 <div class="col-sm-10">
                     <input type="number" class="form-control" id="inputid" name="id">
                 </div>
             </div>
-            <!--titulo-->
+            <!-- Titulo -->
             <div class="mb-3 row">
                 <label for="inputTitulo" class="col-sm-2 col-form-label">Titulo</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputTitulo" name="titulo">
                 </div>
             </div>
-            <!--autor-->
+            <!-- Autor -->
             <div class="mb-3 row">
                 <label for="inputAutor" class="col-sm-2 col-form-label">Autor</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputAutor" name="autor">
                 </div>
             </div>
-            <!--editorial-->
+            <!-- Editorial-->
             <div class="mb-3 row">
                 <label for="inputEditorial" class="col-sm-2 col-form-label">editorial</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputEditorial" name="editorial">
                 </div>
             </div>
-            <!--genero-->
+            <!-- Genero -->
             <div class="mb-3 row">
                 <label for="inputGenero" class="col-sm-2 col-form-label">genero</label>
                 <div class="col-sm-10">
                     <input type="text" class="form-control" id="inputGenero" name="genero">
                 </div>
             </div>
-            <!--precio-->
+            <!-- Precio -->
             <div class="mb-3 row">
                 <label for="inputPrecio" class="col-sm-2 col-form-label">precio</label>
                 <div class="col-sm-10">
@@ -70,9 +70,10 @@
                 </div>
             </div>
 
-            <!--Botones-->
-            <button class="btn btn-primary" type="submit">Enviar</button>
-            <button class="btn btn-danger" type="reset">Borrar</button>
+            <!-- Botones -->
+            <a class="btn btn-secondary" href="index.php" role="button">Cancelar</a>
+            <button type="reset" class="btn btn-danger">Borrar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
 
 
 
@@ -82,7 +83,7 @@
         <footer class="footer mt-auto py-3 fixed-bottom bg-light">
             <div class="container">
                 <span class="text-muted">© 2024
-                    Pablo García Mangana - DWES - 2º DAW - Curso 24/25
+                    Pablo Macías Salguero - DWES - 2º DAW - Curso 24/25
                 </span>
             </div>
         </footer>
@@ -91,6 +92,6 @@
 
     <!-- javascript bootstrap 533 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </>
+</body>
 
 </html>

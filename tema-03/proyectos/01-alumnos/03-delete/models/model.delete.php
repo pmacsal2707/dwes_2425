@@ -22,11 +22,8 @@
         
         // Eliminar Alumno
         unset($alumnos[$indice_eliminar]);
-
     } else {
-        
+
         echo "ERROR: alumno no encontrado";
         exit();
     }
-
-    

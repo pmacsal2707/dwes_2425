@@ -66,7 +66,6 @@
             <a class="btn btn-secondary" href="index.php" role="button">Cancelar</a>
             <button type="reset" class="btn btn-danger">Borrar</button>
             <button type="submit" class="btn btn-primary">Enviar</button>
- 
         </form>
         <!-- fin formulario -->
 
@@ -75,7 +74,7 @@
         <footer class="footer mt-auto py-3 fixed-bottom bg-light">
             <div class="container">
                 <span class="text-muted">© 2024
-                    Juan Carlos Moreno - DWES - 2º DAW - Curso 24/25</span>
+                    Pablo Macías Salguero - DWES - 2º DAW - Curso 24/25</span>
             </div>
         </footer>
 
