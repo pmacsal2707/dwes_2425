@@ -1,5 +1,5 @@
 @echo off
-:: Ejecuta los comandos git
+:: Ejecuta los comandos git - 
 git add .
 git commit -m "codigo"
 git push origin master
