@@ -32,4 +32,28 @@
     echo 'Autor: '. $libro1->getAutor();
     echo '<BR>';
     echo 'Temática: '. implode(', ', $libro1->getTematica());
+    echo '<BR>';echo '<BR>';
+
+    # Crear objeto libro con parámetros
+    $libro2 = new Class_libro(
+        2,
+        'La historia Interminable',
+        23.45,
+        34,
+        'Mikel Ende',
+        ['Novela', 'Ficción', 'Juvenil']
+    );
+
+    # Mostrar detalles clase lbro2
+    echo 'Id: '. $libro2->getId();
+    echo '<BR>';
+    echo 'Título: '. $libro2->getTitulo();
+    echo '<BR>';
+    echo 'Precio: '. $libro2->getPrecio();
+    echo '<BR>';
+    echo 'Páginas: '. $libro2->getPaginas();
+    echo '<BR>';
+    echo 'Autor: '. $libro2->getAutor();
+    echo '<BR>';
+    echo 'Temática: '. implode(', ', $libro2->getTematica());
     echo '<BR>';

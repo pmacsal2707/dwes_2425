@@ -9,7 +9,7 @@
     include 'class/class.calculadora.php';
 
     # Crear un objeto de la clase Calculadora
-    $calculadora = new Calculadora();
+    $calculadora = new Class_calculadora();
 
     # Establecer los valores
     $calculadora->setValor1(5);

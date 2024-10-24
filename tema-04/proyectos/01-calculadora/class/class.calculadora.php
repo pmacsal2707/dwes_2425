@@ -54,22 +54,22 @@
         }
     
         # Métodos para realizar operaciones
-        public function suma() {
+        public function sumar() {
             $this->resultado = $this->valor1 + $this->valor2;
             $this->operacion = 'suma';
         }
     
-        public function resta() {
+        public function restar() {
             $this->resultado = $this->valor1 - $this->valor2;
             $this->operacion = 'resta';
         }
     
-        public function multiplicacion() {
+        public function multiplicar() {
             $this->resultado = $this->valor1 * $this->valor2;
             $this->operacion = 'multiplicacion';
         }
     
-        public function division() {
+        public function dividir() {
             if ($this->valor2 != 0) {
             $this->resultado = $this->valor1 / $this->valor2;
             } else {
